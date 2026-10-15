@@ -27,7 +27,8 @@ const companies = [
     category: 'PRACTICAL TECHNOLOGY. USEFUL SOLUTIONS.',
     short: 'Technology',
     image: asset('technology-operations.jpg'),
-    external: null,
+    external: 'https://rheeltech.ng',
+    externalLabel: 'Visit Rheel Technology',
     description: 'Rheel Technology Limited develops and supports digital products, software and technology services. The business applies technology to practical needs, business operations and access to useful services.',
     areas: ['Software and digital product development', 'Technology services and systems', 'Digital tools for business operations'],
     label: '02 / TECHNOLOGY'
