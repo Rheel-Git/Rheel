@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './styles.css';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Link, NavLink, Route, Routes, useLocation } from 'react-router-dom';
 import { ArrowRight, ArrowUpRight, Building2, ChevronRight, Handshake, Mail, Menu, Send, ShieldCheck, X } from 'lucide-react';
