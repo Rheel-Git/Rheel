@@ -1,6 +1,25 @@
-"scripts": {
-  "dev": "node scripts/prepare-assets.mjs && vite --host 0.0.0.0",
-  "build": "node scripts/prepare-assets.mjs && vite build",
-  "preview": "vite preview --host 0.0.0.0",
-  "lint": "eslint ."
+{
+  "name": "rheel-group-corporate-site",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/prepare-assets.mjs && vite --host 0.0.0.0",
+    "build": "node scripts/prepare-assets.mjs && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router-dom": "latest",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "@eslint/js": "latest",
+    "globals": "latest"
+  }
 }
